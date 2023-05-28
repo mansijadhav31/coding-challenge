@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Paul Young | Wigs for Women</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+
+      #myDiv {
+        background-size: cover;
+        width: 98vw;
+        height: 100%;
+      }
+
+      @media (max-width: 767px) {
+        /* Styles for screens up to 767px wide */
+        #myDiv {
+          background-image: url('./images/hero-img-cleaned.png');
+        }
+      }
+
+      @media (min-width: 768px) and (max-width: 1023px) {
+        /* Styles for screens between 768px and 1023px wide */
+        #myDiv {
+          background-image: url('./images/md-hero-img-cleaned.png');
+        }
+      }
+
+      @media (min-width: 1024px) {
+        /* Styles for screens 1024px and wider */
+        #myDiv {
+          background-image: url('./images/lg-hero-img-cleaned.png');
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="myDiv" class=""></div>
+  </body>
+</html>
